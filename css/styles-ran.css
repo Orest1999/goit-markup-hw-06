@@ -72,9 +72,6 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.kolorstudio {
-    color: #2E2F42;
-}
 
 .navigation-list {
     font-size: 16px;

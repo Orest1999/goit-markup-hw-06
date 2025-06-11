@@ -111,7 +111,25 @@ p {
             display: block;
             fill: #2f2f37;
         }
-                @media screen and (min-width: 768px) {
-                .burger-btn {
-                 display: none;     
-                }}
+            @media screen and (min-width: 768px) {
+            .burger-btn {
+             display: none;     
+                }
+                
+            .heder-logo {
+             padding: 24px 0;
+             margin-right: 120px;    
+        }
+            .navigation-list {
+            display: flex;
+            align-items: center;
+            gap: 40px;              
+         }
+         .adres-norm {
+            font-style: normal;
+            display: block;
+        }
+        .navigat{
+            display: flex;
+            align-items: center;
+        }}
