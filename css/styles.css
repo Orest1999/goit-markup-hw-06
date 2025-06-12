@@ -305,19 +305,75 @@ p {
                         .iko-red {
                          fill: #f4f4fd;                   
                         }
-              
-                    
                    @media screen and (min-width: 768px) {
                    .mobile-menu {
                     display: none;
                      } }
 
+                      /* 1 СЕКЦІЯ З ФОТО */
 
 
 
 
+                     /* "2 СЕКЦІЯ З ІКОНАМИ */
+                      .tekster {
+                      display: flex;
+                      flex-wrap: wrap;
+                      justify-content: space-between;
+                      align-items: stretch;
+                      font-size: 16px;
+                      font-weight: 500;
+                      line-height: 24px;
+                      letter-spacing: 0.02em;
+                      text-align: left;
+                      width: 288px;
+                      height: 120px;
+                      gap: 72px;
+                    }
+                    
+                     .comer {
+                      font-size: 36px;
+                      font-weight: 700;
+                      line-height: 111%;
+                      letter-spacing: 0.02em;
+                      text-align: center;       
+                      color: #2e2f42;
+                    }
+                
+                    .retro {
+                      font-weight: 500;
+                        font-size: 16px;
+                        line-height: 150%;
+                        letter-spacing: 0.02em;
+                        color: #434455;
+                    }
 
+                     @media screen and (max-width: 1158px) {
+                       .com-redset-border{
+                        display: none;}
+                          .ikonku-com{
+                            display: none;
+                          }}
 
+                     @media screen and (min-width: 768px) {
+                     
+                      .spyp-description{
+                       width: calc((100% - 32px)/2);
+                      }
+                       .tekster {
+                         display: flex;
+                         flex-wrap: wrap;
+                         justify-content: space-between;
+                         align-items: stretch;
+                         font-size: 16px;
+                         font-weight: 500;
+                         line-height: 24px;
+                         letter-spacing: 0.02em;
+                         text-align: left;
+                          width: 736px;
+                          height: 312px;
+                          gap: 72px;
+                       }}
 
 
 
