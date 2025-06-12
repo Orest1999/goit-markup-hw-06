@@ -326,8 +326,7 @@ p {
                       line-height: 24px;
                       letter-spacing: 0.02em;
                       text-align: left;
-                      width: 288px;
-                      height: 120px;
+                      width: 100%;
                       gap: 72px;
                     }
                     
@@ -347,6 +346,9 @@ p {
                         letter-spacing: 0.02em;
                         color: #434455;
                     }
+                      .container-gerst{
+                        margin-bottom: 96px;
+                      }
 
                      @media screen and (max-width: 1158px) {
                        .com-redset-border{
@@ -357,30 +359,169 @@ p {
 
                      @media screen and (min-width: 768px) {
                      
-                      .spyp-description{
-                       width: calc((100% - 32px)/2);
-                      }
-                       .tekster {
-                         display: flex;
-                         flex-wrap: wrap;
-                         justify-content: space-between;
-                         align-items: stretch;
-                         font-size: 16px;
-                         font-weight: 500;
-                         line-height: 24px;
-                         letter-spacing: 0.02em;
-                         text-align: left;
+                      .tekster {
+                          display: flex;
+                          flex-wrap: wrap;
+                          justify-content: space-between;
+                          gap: 24px;
                           width: 736px;
                           height: 312px;
-                          gap: 72px;
-                       }}
+                        }
+                      
+                        .spyp-description {
+                          width: calc((100% - 24px) / 2);
+                         
+                        }  
+                        .comer {
+                        text-align: left;}}
 
+                         @media screen and (min-width: 1158px){
+                          .tekster {
+                              display: flex;
+                              justify-content: space-between;
+                              align-items: stretch;
+                              font-size: 16px;
+                              font-weight: 500;
+                              line-height: 24px;
+                              letter-spacing: 0.02em;
+                              text-align: left;
+                              gap: 24px;
+                              width: 1128px;
+                              height: 224px;
+                            }
+                          
+                            .spyp-description {
+                              width: calc((100% - 72px)/4);
+                          
+                            }
+                          
+                            .com-redset-border {
+                              border: 1px solid #8e8f99;
+                              border-radius: 4px;
+                              width: 264px;
+                              height: 112px;
+                              background: #f4f4fd;
+                              margin-bottom: 8px;
+                              display: flex;
+                              align-items: center;
+                              justify-content: center;
+                            }
+                          
+                            .comer {
+                              font-size: 20px;
+                              font-weight: 500;
+                              line-height: 24px;
+                              letter-spacing: 0.02em;
+                              color: #2e2f42;
+                              margin-bottom: 8px;
+                            }
+                          
+                            .retro {
+                              font-size: 16px;
+                              font-weight: 400;
+                              line-height: 24px;
+                              letter-spacing: 0.02em;
+                              color: #434455;
+                              margin-bottom: 0px;
+                            }
+                         }
 
+                       
+                   /* "3 СЕКЦІЯ З ІКОНАМИ */
+              
+                    .sectioner {
+                        width: 100%;
+                        background: #f4f4fd;
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 96px;
+                    }
+                     .agovres {
+                      padding-top: 96px;
+                      font-size: 36px;
+                       font-weight: 700;
+                       letter-spacing: 0.02em;
+                       text-align: center;
+                       color: #2e2f42;
+                         line-height: 1.11;
+                         margin-bottom: 72px;            
+                         }
+                     .fotomen {
+                      display: flex;
+                       flex-direction: column;
+                       gap: 72px;
+                        padding: 0;
+                         margin: 0;
+                        list-style: none;
+                                        }
 
-
-
-
-
-
-
-
+                         .ramka {
+                         padding: 32px 0;
+                          }
+                                        
+                          .imy-developers {
+                          margin-bottom: 8px;
+                          font-weight: 500;
+                          font-size: 20px;
+                          line-height: 1.11;
+                          letter-spacing: 0.02em;
+                          color: #2e2f42;
+                           text-align: center;
+                            }
+                                        
+                            .info-developers {
+                           font-weight: 400;
+                           font-size: 16px;
+                           margin-bottom: 8px;
+                           line-height: 1.11;
+                            letter-spacing: 0.02em;
+                             text-align: center;
+                             color: #434455;
+                            }
+              
+                                        
+                              .lust-iconu {
+                                display: flex;
+                                justify-content: center;
+                                gap: 24px;
+                                 margin-top: 8px;
+                                   }
+                                        
+                                 .ppteri-iconu {
+                                   width: 40px;
+                                    height: 40px;
+                                     border-radius: 50px;
+                                       background-color: #4d5ae5;
+                                        display: flex;
+                                        align-items: center;
+                                         justify-content: center;
+                                          }
+                                        
+                                           .ikonku-com-redc {
+                                            fill: #f4f4fd;
+                                             }
+                                        
+                                             .porty-dwdwe {
+                                              width: 100%;
+                                              height: 100%;
+                                              background-color: #4d5ae5;
+                                              border-radius: 50%;
+                                              display: flex;
+                                              align-items: center;
+                                               justify-content: center;
+                                              transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                                                                                }
+                                        
+                                              .porty-dwdwe:hover,
+                                              .porty-dwdwe:focus {
+                                                background-color: #404bbf;
+                                                                                }
+                                        
+                                               .foto {
+                                                border-radius: 0px 0px 4px 4px;
+                                                box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                                                background: #fff; 
+                                                width: 100%;
+                                              }
+                                                 
+                                             @media screen and (min-width: 768px) {}
