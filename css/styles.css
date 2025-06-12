@@ -114,22 +114,94 @@ p {
             @media screen and (min-width: 768px) {
             .burger-btn {
              display: none;     
-                }
-                
-            .heder-logo {
-             padding: 24px 0;
-             margin-right: 120px;    
-        }
+             }
+            .navigat{
+            display: flex;
+            align-items: center;
+            }
             .navigation-list {
             display: flex;
             align-items: center;
             gap: 40px;              
-         }
-         .adres-norm {
-            font-style: normal;
+            }
+
+            .heder-logo {
+             padding: 24px 0;
+             margin-right: 120px;    
+            }        
+            
+           .poret{
+            color: #434455;
             display: block;
-        }
-        .navigat{
-            display: flex;
-            align-items: center;
-        }}
+            position: relative;
+            padding: 24px 0;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            font-size: 16px;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+            
+            .restun-ofer{ 
+            position: relative;
+            }
+            .restun-ofer::after{
+              content: "";
+              position: absolute;
+              bottom: -1px;
+              width: 100%;
+              height: 4px;
+              left: 0;
+              border-radius: 2px;
+              background-color: #404bbf;
+              transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
+            }
+           
+                .poret:hover,
+                .poret:focus {
+                    color: #404bbf;
+                }
+        
+                .restun-ofer {
+                    color: #404bbf;
+                    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                }  
+                .poret:hover,
+                .poret:focus,
+                .contakt-lust:hover,
+                .contakt-lust:focus{
+                 color: #404bbf;
+              }
+
+                .adres-norm {
+                 display: block;
+                 font-style: normal;}
+
+                .contakt-lust {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;}
+            
+                .mail-fonts {
+                color: #434455;
+                display: block;
+                line-height: 1.17;
+                letter-spacing: 0.04em;
+                font-size: 12px;
+
+                transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            }}
+             @media screen and (min-width: 1158px) {
+             .container {
+                margin-right: 76px;}
+
+              .contakt-lust {
+              align-items: center;
+              flex-direction: row;
+              gap: 40px;
+                              }
+              .mail-fonts {
+                padding: 24px 0;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                 font-size: 16px;
+               }}
