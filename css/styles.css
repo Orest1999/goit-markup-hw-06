@@ -311,8 +311,79 @@ p {
                      } }
 
                       /* 1 СЕКЦІЯ З ФОТО */
+                    .replik {
+                     font-size: 36px;
+                     font-weight: 700;
+                     line-height: 111%;
+                      letter-spacing: 0.02em;
+                      text-align: center;
+                      color: #FFFFFF;
+                      margin-left: auto;
+                      margin-right: auto;
+                      max-width: 216px;
 
-
+                                             }
+                      
+                        .content {
+                         font-family: "Roboto", sans-serif;
+                           font-size: 16px;
+                          font-weight: 500;
+                            line-height: 24px;
+                          letter-spacing: 0.04em;
+                            color: #FFFFFF;
+                            background-color: #4D5AE5;
+                              cursor: pointer;
+                             border-radius: 4px;
+                             height: 56px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 72px;
+                            min-width: 169px;
+                            display: block;
+                            border: none;
+                            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                                            }
+                      
+                       .content:hover,
+                       .content:focus {
+                        background-color: #404BBF;
+                       cursor: pointer;
+                          }
+                      
+                         .bottum-clas {
+                           padding: 72px 0;
+                            background-color: #2E2F42;
+                            margin: 0 auto;
+                            margin-bottom: 96px;
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                           rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+                           background-repeat: no-repeat;
+                            background-position: center;
+                             background-size: cover;
+                               max-width: 1440px
+                                            }
+                          @media screen and (min-width: 768px){
+                          .replik{
+                           font-weight: 700;
+                           font-size: 56px;
+                           line-height: 107%;
+                             max-width: 496px
+                            }
+                            .content{
+                            margin-top: 36px;
+                            }
+                             .bottum-clas {
+                             padding: 112px 0;
+                          }}
+                           @media screen and (min-width: 1158px){
+                            .content {
+                                margin-top: 48px;
+                              }
+                              .bottum-clas {
+                                padding: 188px 0;
+                                margin-bottom: 120px;
+                           }
+                          }
 
 
                      /* "2 СЕКЦІЯ З ІКОНАМИ */
