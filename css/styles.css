@@ -992,13 +992,10 @@ p {
                                                .tekct {
                                                  max-width: 264px;
                                                }
-                                            
-                                               .verones-fytet {
-                                                margin-right: 120px;
-                                               }
                                                .dla-futera{
                                                 margin-right: 80px;
-                                              }}
+                                                margin-left: 120px;}
+                                              }
 
                                                                                             /*MODEL*/
                                                                                             :root {
