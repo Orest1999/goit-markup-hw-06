@@ -356,12 +356,20 @@ p {
                             margin: 0 auto;
                             margin-bottom: 96px;
                             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                           rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-                           background-repeat: no-repeat;
+                           rgba(46, 47, 66, 0.7)), url(../images/telefon/Dark-bg-tel.jpg);
+                            background-repeat: no-repeat;
                             background-position: center;
                              background-size: cover;
                                max-width: 1440px
                                             }
+                           @media screen and (min-resolution: 2x){
+                           .bottum-clas{
+                           background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                          rgba(46, 47, 66, 0.7)), url(../images/telefon/Dark-bg-tel-2x.jpg);
+                           }}
+
+
+
                           @media screen and (min-width: 768px){
                           .replik{
                            font-weight: 700;
@@ -374,7 +382,15 @@ p {
                             }
                              .bottum-clas {
                              padding: 112px 0;
+                             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)), url(../images/planhet/Dark-bg-pl.jpg);
                           }}
+                           @media screen and (min-resolution: 2x) {
+                            .bottum-clas {
+                              background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                             rgba(46, 47, 66, 0.7)), url(../images/telefon/Dark-bg-pl-2x.jpg);
+                            }}
+
                            @media screen and (min-width: 1158px){
                             .content {
                                 margin-top: 48px;
@@ -382,8 +398,16 @@ p {
                               .bottum-clas {
                                 padding: 188px 0;
                                 margin-bottom: 120px;
+                                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                               rgba(46, 47, 66, 0.7)), url(../images/dusktop/people-office.jpg);
                            }
                           }
+                           @media screen and (min-resolution: 2x) {
+                          .bottum-clas {
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                             rgba(46, 47, 66, 0.7)), url(../images/dusktop/people-officedc-2x.jpg);
+                              }
+                              }
 
 
                      /* "2 СЕКЦІЯ З ІКОНАМИ */
