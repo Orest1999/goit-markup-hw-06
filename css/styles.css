@@ -838,7 +838,7 @@ p {
                                                                             
                                                                                               .futeh-raou {
                                                                                                display: flex;
-                                                                                              flex-direction: column;
+                                                                                               flex-direction: column;
                                                                                                align-items: center;
                                                                                                gap: 72px;
                                                                                                 }
@@ -878,7 +878,7 @@ p {
                                                                                                         .subscribe-input {
                                                                                                           border: 1px solid #ffffff;
                                                                                                            background-color: transparent;
-                                                                                                            font-size: 12px;
+                                                                                                      font-size: 12px;
                                                                                                             line-height: 2;
                                                                                                              letter-spacing: 0.04em;
                                                                                                              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -903,7 +903,7 @@ p {
                                                                                                              fill: white;
                                                                                                              }
                                                                             
-                                                                                                             .subscribe-label {
+                                                                                                                   .subscribe-label {
                                                                                                               display: block;
                                                                                                                 text-align: center;
                                                                                                              }
@@ -937,69 +937,64 @@ p {
                                                                                                                    height: 24px;
                                                                                                                    margin-left: 16px; }
 
-                                                                                                                   @media screen and (min-width: 768px) {
-                                                                                                                      .futeh-raou {
-                                                                                                                        flex-direction: row;
-                                                                                                                       justify-content: flex-start;
-                                                                                                                         align-items: baseline;
-                                                                                                                      column-gap: 24px;
-                                                                                                                       row-gap: 72px;
-                                                                                                                                              }
-                                                                                                                                                          
-                                                                                                                     .dla-futera {
-                                                                                                                      text-align: left;
-                                                                                                                   margin: 0;
-                                                                                                                 }
-                                                                                                                                                          
-                                                                                                                 .tekct {
-                                                                                                                   margin: 0;
-                                                                                                                 }
-                                                                                                                                                          
-                                                                                                                  .verones-fytet {
-                                                                                                               text-align: left;
-                                                                                                              margin-right: 0;
-                                                                                                            }
-                                                                                                                                                          
-                                                                                                              .subscribe-label {
-                                                                                                               width: 100%;
-                                                                                                               text-align: left;
-                                                                                                          }
-                                                                                                                                                          
-                                                                                                           .subscribe-form {
-                                                                                                              width: 100%;
-                                                                                                              flex-direction: row;
-                                                                                                               gap: 24px;
-                                                                                                               align-items: center;
-                                                                                                               justify-content: flex-start;
-                                                                                                               }
-                                                                                                                                                          
-                                                                                                                .subscribe-input {
-                                                                                                                 width: 264px;
-                                                                                                                   }}
-                                                                                                                   
-                                                                                                                     @media screen and (min-width: 1158px) {
-                                                                                                                     .topctor {
-                                                                                                                       padding: 100px 0;
-                                                                                                                       }
-                                                                                                                                                                                                                                                                                                                      
-                                                                                                                       .futeh-raou {
-                                                                                                                       flex-wrap: nowrap;
-                                                                                                                       }
-                                                                                                                                                                                                                                                                                                                      
-                                                                                                                      .dla-futera {
-                                                                                                                        margin-right: 80px;
-                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                      
-                                                                                                                         .verones-fytet {
-                                                                                                                           margin-right: 120px;
-                                                                                                                            }
-                                                                                                                                                                                                                                                                                                                      
-                                                                                                                           .subscribe-label {
-                                                                                                                            width: auto;
-                                                                                                                              }
-                                                                                                                                                                                                                                                                                                                      
-                                                                                                                          .subscribe-form {
-                                                                                                                           width: auto;}
-                                                                                                                           .tekct {
-                                                                                                                           max-width:100%;        
-                                                                                                                           }}
+                                             /* Планшети і ширше */
+                                             @media screen and (min-width: 768px) {
+                                               .futeh-raou {
+                                                 flex-direction: row;
+                                                 margin-left: 150px;
+                                                 align-items: flex-start;
+                                                 row-gap: 72px;
+                                                 column-gap: 24px;
+                                                 flex-wrap: wrap;
+                                               }
+                      
+                                               .verones-fytet,
+                                               .dla-futera,
+                                               .subscribe-section {
+                                                 text-align: left;
+                                                 margin: 0;
+                                               }
+                                               
+                      
+                                               .subscribe-form {
+                                                 flex-direction: row;
+                                                 gap: 24px;
+                                                 align-items: center;
+                                                 justify-content: flex-start;
+                                               }
+                      
+                                               .subscribe-label {
+                                                 width: auto;
+                                                 text-align: left;
+                                               }
+                      
+                                               .subscribe-input {
+                                                 width: 264px;
+                                               }
+                                             }
+                      
+                                        
+                                             @media screen and (min-width: 1158px) {
+                                               .topctor {
+                                                 padding: 100px 0;
+                                               }
+                      
+                                               .futeh-raou {
+                                                 flex-wrap: nowrap;
+                                                 gap: 0;
+                                               }
+                    
+                                               .subscribe-form {
+                                                 width: auto;
+                                               }
+                      
+                                               .tekct {
+                                                 max-width: 264px;
+                                               }
+                                            
+                                               .verones-fytet {
+                                                margin-right: 120px;
+                                               }
+                                               .dla-futera{
+                                                margin-right: 80px;
+                                              }}
