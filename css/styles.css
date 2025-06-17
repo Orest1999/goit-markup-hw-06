@@ -181,7 +181,7 @@ p {
                 flex-direction: column;
                 gap: 12px;}
             
-                .mail-fonts {
+                .mail-fonts-roc {
                 color: #434455;
                 display: block;
                 line-height: 1.17;
@@ -195,13 +195,7 @@ p {
               .contakt-lust {
               align-items: center;
               flex-direction: row;
-              gap: 40px;
-                              }
-              .mail-fonts {
-                padding: 24px 0;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-                font-size: 16px;
+              gap: 40px;          
                }}
                  /* MOBAIL MENU */
 
@@ -910,6 +904,7 @@ p {
                                                                             
                                                                                                 .verones-fytet {
                                                                                                  margin-right: 0;
+                                                                                                text-align: center;
 
                                                                                                    }
                                                                             
@@ -1016,7 +1011,8 @@ p {
                                                .dla-futera,
                                                .subscribe-section,
                                                .futr-tecst,
-                                                .tekct {
+                                                .tekct,
+                                                .emberand {
                                                  text-align: left;
                                                  margin: 0;
                                                }
