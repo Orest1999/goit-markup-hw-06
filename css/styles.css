@@ -463,7 +463,6 @@ p {
                       text-align: left;
                       width: 100%;
                       gap: 72px;
-                      padding-bottom: 8px;
                     }
                     
                      .comer {
@@ -473,6 +472,7 @@ p {
                       letter-spacing: 0.02em;
                       text-align: center;       
                       color: #2e2f42;
+                      padding-bottom: 8px;
                     }
                 
                     .retro {
