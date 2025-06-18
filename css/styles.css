@@ -134,6 +134,7 @@ p {
             color: #434455;
             display: block;
             position: relative;
+            font-weight: 500;
             padding: 24px 0;
             line-height: 1.5;
             letter-spacing: 0.02em;
@@ -196,6 +197,12 @@ p {
               align-items: center;
               flex-direction: row;
               gap: 40px;          
+               }
+               .mail-fonts-roc{
+                font-size: 16px;
+                font-weight: 400;
+                  line-height: 150%;
+                  letter-spacing: 0.02em;
                }}
                  /* MOBAIL MENU */
 
@@ -239,9 +246,9 @@ p {
                       cursor: pointer;
                       padding: 0;
                       border-radius: 100%;
-                      fill: #e7e9fc;
-                      stroke-width: 1px;
-                      stroke: #2e2f42;
+                      background-color: #e7e9fc;
+                      border: 1px solid #2e2f42;
+                      
 
                     }
 
@@ -398,7 +405,7 @@ p {
                            font-weight: 700;
                            font-size: 56px;
                            line-height: 107%;
-                          max-width: 496px
+                           max-width: 496px
                             }
                             .content{
                             margin-top: 36px;
@@ -412,7 +419,7 @@ p {
                            @media screen and (min-resolution: 2x) {
                             .bottum-clas {
                               background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                             rgba(46, 47, 66, 0.7)), url(../images/telefon/Dark-bg-pl-2x.jpg);
+                             rgba(46, 47, 66, 0.7)), url(../images/planhet/Dark-bg-pl-2x.jpg);
                             }}}
 
                            @media screen and (min-width: 1158px){
