@@ -472,7 +472,7 @@ p {
                       letter-spacing: 0.02em;
                       text-align: center;       
                       color: #2e2f42;
-                      padding-bottom: 8px;
+                      margin-bottom: 8px;
                     }
                 
                     .retro {
@@ -545,7 +545,7 @@ p {
                               line-height: 24px;
                               letter-spacing: 0.02em;
                               color: #2e2f42;
-                              margin-bottom: 8px;
+                            
                             }
                           
                             .retro {
@@ -578,12 +578,10 @@ p {
                          }
                      .fotomen {
                       display: flex;
+                      align-items: center;
                        flex-direction: column;
                        gap: 72px;
-                        padding: 0;
-                         margin: 0;
-                        list-style: none;
-                        margin-bottom: 96px;
+                    
                                         }
 
                          .ramka {
@@ -615,7 +613,6 @@ p {
                                 display: flex;
                                 justify-content: center;
                                 gap: 24px;
-                                 margin-top: 8px;
                                    }
                                         
                                  .ppteri-iconu {
@@ -656,19 +653,13 @@ p {
                                               }
                                                  
                                             @media screen and (min-width: 768px) {
-                                             .sectioner .container {
-                                              max-width: 100%;}
                                               
                                             .fotomen {
-                                             display: flex;
                                              flex-direction: row;
                                              flex-wrap: wrap;
                                              gap: 72px 24px;
                                               justify-content: center;
-                                              align-items: center;
-                                              max-width: calc(264px * 2 + 24px + 108px * 2);
-                                               margin-left: auto;                
-                                               margin-right: auto;
+                                              
                                   
                                                 }
                                               
@@ -685,16 +676,8 @@ p {
                                                     }
                                                   
                                                     .fotomen {
-                                                      flex-direction: row;
                                                       flex-wrap: nowrap;
                                                       gap: 24px;
-                                                      max-width: calc(264px * 4 + 24px * 3);
-                                                      margin-left: auto;
-                                                      margin-right: auto;
-                                                      padding: 0;
-                                                      justify-content: center;
-                                                      margin-bottom: 120px;
-
                                                     }
                                                     .foto {
                                                       width: 264px;
@@ -703,7 +686,7 @@ p {
                                                     /* "4 СЕКЦІЯ З ІКОНАМИ */
                                                     .telcon-element {
                                                      width: 288px;
-                                                    height: 400px;
+                                                     height: 400px;
                                                      display: flex;
                                                      flex-direction: column;
                                                       overflow: hidden;
@@ -746,7 +729,6 @@ p {
                                                                transform: translateY(100%);
                                                                transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
                                                                display: flex;
-                                                               align-items: center;
                                                                justify-content: center;
                                                                font-weight: 400;
                                                                font-size: 16px;
@@ -776,7 +758,6 @@ p {
                                                                     padding: 0;
                                                                     margin: 0;
                                                                    list-style: none;
-                                                                   margin-bottom: 96px;
                                                                       }
                                               
                                                                   .telcon-element:hover {
@@ -830,7 +811,6 @@ p {
                                                                             }
                                                                            .telefonfoto {
                                                                             row-gap: 48px;
-                                                                          margin-bottom: 120px; 
                                                                          } }
                                                                          /* "FUTER */
                                                                        .kolorstudio-p {
@@ -952,6 +932,7 @@ p {
                                                                                                               color: #ffffff;
                                                                                                                outline: none;
                                                                                                                border-radius: 4px;
+                                                                                                               width: 288px;
                                                                                                                 }
                                                                             
                                                                                                                .subscribe-input::placeholder {
@@ -1014,13 +995,14 @@ p {
                                                .verones-fytet,
                                                .dla-futera,
                                                .subscribe-section,
-                                               .futr-tecst,
-                                                .tekct,
-                                                .emberand {
+                                               .futr-tecst {
                                                  text-align: left;
                                                  margin: 0;
                                                }
                                                
+                                                  .tekct{
+                                                 text-align: left;
+                                                  }
                       
                                                .subscribe-form {
                                                  flex-direction: row;
