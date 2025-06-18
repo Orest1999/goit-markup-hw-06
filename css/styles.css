@@ -395,7 +395,7 @@ p {
                            @media screen and (min-resolution: 2x){
                            .bottum-clas{
                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                          rgba(46, 47, 66, 0.7)), url(../images/telefon/Dark-tel-2x.jpg);
+                          rgba(46, 47, 66, 0.7)), url(../images/telefon/Darktel2x.jpg);
                            }}
 
 
@@ -419,7 +419,7 @@ p {
                            @media screen and (min-resolution: 2x) {
                             .bottum-clas {
                               background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                             rgba(46, 47, 66, 0.7)), url(../images/planhet/Dark-bg-pl-2x.jpg);
+                             rgba(46, 47, 66, 0.7)), url(../images/planhet/Darkpl2x.jpg);
                             }}}
 
                            @media screen and (min-width: 1158px){
@@ -435,7 +435,7 @@ p {
                            @media screen and (min-resolution: 2x) {
                           .bottum-clas {
                             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                             rgba(46, 47, 66, 0.7)), url(../images/dusktop/people-officedc-2x.jpg);
+                             rgba(46, 47, 66, 0.7)), url(../images/dusktop/people2x.jpg);
                               }}}
 
 
