@@ -395,7 +395,7 @@ p {
                            @media screen and (min-resolution: 2x){
                            .bottum-clas{
                            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                          rgba(46, 47, 66, 0.7)), url(../images/telefon/Dark-bg-tel-2x.jpg);
+                          rgba(46, 47, 66, 0.7)), url(../images/telefon/Dark-tel-2x.jpg);
                            }}
 
 
@@ -436,8 +436,7 @@ p {
                           .bottum-clas {
                             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                              rgba(46, 47, 66, 0.7)), url(../images/dusktop/people-officedc-2x.jpg);
-                              }
-                              }}
+                              }}}
 
 
                      /* "2 СЕКЦІЯ З ІКОНАМИ */
@@ -521,8 +520,6 @@ p {
                               letter-spacing: 0.02em;
                               text-align: left;
                               gap: 24px;
-                              width: 1128px;
-                              height: 224px;
                             }
                           
                             .spyp-description {
